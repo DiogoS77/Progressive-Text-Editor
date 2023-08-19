@@ -12,7 +12,7 @@ const initializeDatabase = async () =>
     },
   });
 
-export const addToUniqueDb = async (content) => {
+export const putDb = async (content) => {
   console.log("Adding to the unique database");
 
   const uniqueDb = await openDB("uniqueDB", 1);
@@ -25,7 +25,7 @@ export const addToUniqueDb = async (content) => {
   console.log("🚀 - Data added to the unique database", result);
 };
 
-export const retrieveFromUniqueDb = async () => {
+export const getDb = async () => {
   console.log("Retrieving from the unique database");
 
   const uniqueDb = await openDB("uniqueDB", 1);
