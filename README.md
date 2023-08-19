@@ -62,7 +62,7 @@ npm i
 
 ## Usage
 
-![End Result](./images/text-editor.png)
+![End Result](./Images/text-editor.png)
 
 Deployed Application: https://progressive-text-edit-1ab400654b8a.herokuapp.com/
 
