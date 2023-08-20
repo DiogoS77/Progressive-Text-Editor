@@ -40,9 +40,15 @@ THEN I should have proper build scripts for a webpack application
 
 ## Description
 
--
--
--
+This project consists in a Progressive Text Editor that will allows us to use it as a tex editor and save information.This project contains 9 JavaScript files, 1 CSS file and 1 Index.html file.
+
+There was no major challenges for me during this project since most of the code missing was in previous activitys that were done in the class , so getting the code and then adjusting it was pretty simple.
+
+This challenge helped me a lot because it made my understanding of Progressive Apps higher and also made more confident while using webpack and new technologies that i barelly used before. There was more stuff that this challenge helped me with that i will be listing bellow.
+
+- Better use of lighthouse
+- Higher understanding of using DevTools
+- Higher understanding of progressive apps
 
 ## Table of Contents
 
@@ -62,6 +68,8 @@ npm i
 
 ## Usage
 
+To use this repository is pretty simple. You will have to clone the repo , and soon as you clone it and open it, you will need to open your terminal and run the following command (npm i). After installing everything you will need to run this following command in your terminal run (npm run start:dev). After running this command you will see your localhost was made and you should be able to access your localhost and your editor in browser. Or you can use the heroku deployed application instead of the localhost.
+
 ![End Result](./Images/text-editor.png)
 
 Deployed Application: https://progressive-text-edit-1ab400654b8a.herokuapp.com/
@@ -71,15 +79,10 @@ Deployed Application: https://progressive-text-edit-1ab400654b8a.herokuapp.com/
 I will be listing the tests i have done.
 
 ```
-Tested -
-Tested -
-Tested -
-Tested -
-Tested -
-Tested -
-Tested -
-Tested -
-Tested -
+Tested - Checking IndexDB to see information
+Tested - Checking Manifest
+Tested - Checking Service Worker
+Tested - Checking typing in the text editor
 ```
 
 ## License
